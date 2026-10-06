@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshit Saini | Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <div class="hero-content">
+            <p class="tagline">WELCOME TO MY PROFILE</p>
+
+            <h1>Akshit Saini</h1>
+
+            <p class="subtitle">
+                B.Tech CSE Student | Python Beginner | Tech Enthusiast
+            </p>
+
+            <!-- Theme Button -->
+            <button id="themeButton" onclick="changeTheme()">
+                🌙 Change Theme
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about" class="card about-card">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am Akshit Saini, a B.Tech CSE student at JECRC University, Jaipur.
+                I am interested in programming and technology, and I am currently learning
+                Python and other computer science concepts.
+            </p>
+
+            <p>
+                I enjoy learning new technologies, improving my programming skills,
+                and working on interesting projects.
+            </p>
+        </section>
+
+
+        <section id="skills" class="card skills-card">
+            <h2>My Skills</h2>
+
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+
+        <section id="projects" class="card projects-card">
+            <h2>My Projects</h2>
+
+            <div class="project-list">
+
+                <a href="#" class="project-link">
+                    <span>01</span>
+                    <strong>Personal Portfolio Website</strong>
+                </a>
+
+                <a href="#" class="project-link">
+                    <span>02</span>
+                    <strong>Python Beginner Project</strong>
+                </a>
+
+                <a href="#" class="project-link">
+                    <span>03</span>
+                    <strong>Student Management Project</strong>
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>© 2026 Akshit Saini</p>
+        <p>Email: your-email@example.com</p>
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        function changeTheme() {
+
+            // Add/remove dark-theme class
+            document.body.classList.toggle("");
+
+            // Change button text
+            const button = document.getElementById("themeButton");
+
+            if (document.body.classList.contains("")) {
+                button.innerHTML = "☀️ Light Theme";
+            } else {
+                button.innerHTML = "🌙 Dark Theme";
+            }
+        }
+
+    </script>
+
+</body>
+</html>
