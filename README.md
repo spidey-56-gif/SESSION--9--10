@@ -31,6 +31,5 @@ SESSION-9-10/
 ├── index.html
 ├── style.css
 ├── theme.js
-├── MHIT.jpeg
 └── README.md
 
